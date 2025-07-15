@@ -1,11 +1,11 @@
-nav ul li{
+ ul li{
     list-style: none;
     
 }
 li a{
     text-decoration: none;
 }
- ul{
+ .firstone{
     display: flex;
     justify-content: space-around;
 }
@@ -182,9 +182,39 @@ input[type="button"]{
     color: white;
 }
 .body{
-    background-color: rgba(158, 158, 241, 0.144);
+    background-color: rgba(158, 158, 241, 0.096);
+}
+.lastone{
+    display: flex;
+  justify-content: center;
+  gap: 20px;
+    
+    
+}
+footer li{
+    list-style: none;
+}
+.ohno{
+    width: 401px;
+    height: 24px;
+  align-items: center;
 }
 
+.divy{
+    width: 540px;
+    height: 225px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 10px;
+  
+}
+.log{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.lastp{
+    font-size: 20px;
+}
 
 
 
